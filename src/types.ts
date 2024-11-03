@@ -3,4 +3,5 @@ export interface Meal {
   time: 'Breakfast' | 'Snack' | 'Lunch' | 'Dinner';
   description: string;
   calories: number;
+  date: string;
 }
